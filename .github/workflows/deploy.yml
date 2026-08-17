@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Vite default is './dist'. Adjust if TanStack Start outputs elsewhere.
-          path: './dist'
+          path: '.output/public'
 
       - name: Deploy to GitHub Pages
         id: deployment
